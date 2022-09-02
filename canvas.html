@@ -22,8 +22,8 @@
   function drawMazeAndRectangle(rectX, rectY) {
       makeWhite(0, 0, canvas.width, canvas.height);
       var mazeImg = new Image();
-      mazeImg.onload = function () { // when the image is loaded, draw the image, 
-                                     // the rectangle and the circle
+      mazeImg.onload = function () { // when the image is loaded, draw the image,  
+                                     //the rectangle and the circle
           context.drawImage(mazeImg, 0, 0);
           drawRectangle(rectX, rectY, "#0000FF", false, true);
           context.beginPath();
